@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cv.css">
+    <title>Laurent Gurbala - CV</title>
+
+</head>
+
+<body>
+    <header class="container-fluid p-0">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Mon Portfolio</a>
+
+                <!-- bouton burger (visible seulement en dessous de 768px) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- liens du menu -->
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto text-end">
+                        <li class="nav-item"><a class="nav-link me-2    " href="./index.html#a-propos">Qui suis-je ?</a></li>
+                        <li class="nav-item"><a class="nav-link me-2" href="./index.html#projets">Projets</a></li>
+                        <li class="nav-item"><a class="nav-link me-2" href="./cv.html">CV</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <!-- colonne gauche -->
+            <aside class="col-md-4 col-lg-3 sidebar bg-primary p-4">
+                <!-- Photo -->
+                <div class="mb-4">
+                    <img class="img-fluid mb-3" src="images/photo-cv.jpg" alt="photo de laurent gurbala">
+                    <h2>Laurent Gurbala</h2>
+                </div>
+
+                <!-- Contact -->
+                <div class="sidebar-section">
+                    <p>06 12 24 30 98</p>
+                    <p>laurent.gurbala@gmail.com</p>
+                    <p>88 rue Louis Chancel<br>26200 Montélimar</p>
+                    <a href="#" class="link-warning fw-bold">Portfolio</a>
+                </div>
+
+                <!-- Compétences -->
+                <div class="sidebar-section">
+                    <h3 class="mb-4">Compétences</h3>
+                    <ul>
+                        <li class="fw-bold">
+                            HTML / CSS : <span class="badge bg-success">Avancé</span>
+                            <p class="fw-normal">Intégration de maquettes, responsive design</p>
+                        </li>
+                        <li class="fw-bold">
+                            JavaScript : <span class="badge bg-info">Débutant</span>
+                            <p class="fw-normal">Développement d'interfaces dynamiques</p>
+                        </li>
+                        <li class="fw-bold">
+                            PHP : <span class="badge bg-success">Avancé</span>
+                            <p class="fw-normal">MVC, POO</p>
+                        </li>
+                        <li class="fw-bold">
+                            SQL : <span class="badge bg-info">Débutant</span>
+                            <p class="fw-normal">Gestion de bases de données</p>
+                        </li>
+                        <li class="fw-bold">
+                            Git : <span class="badge bg-warning">Intermédiaire</span>
+                            <p class="fw-normal">Gestion de versions</p>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </aside>
+
+            <!-- colonne droite -->
+            <main class="col-md-8 col-lg-9 main p-3 p-sm-4 p-lg-5 bg-secondary">
+                <!-- Titre -->
+                <h1 class="mb-4">Développeur Backend junior</h1>
+
+                <!-- Description -->
+                <section>
+                    <p class="text-justify-sm">
+                        Junior certifié « Développeur Concepteur Logiciel » (niveau 6 RNCP), spécialisé en
+                        PHP/Symfony et ouvert aux autres technologies. <br>
+                        Formé aux bonnes pratiques de conception et de développement, je maîtrise l’analyse des besoins,
+                        la création d’architectures solides et le
+                        développement d’applications performantes. <br>
+                        Mon objectif est de mettre mes compétences techniques et ma rigueur au service de projets
+                        innovants, tout en continuant à progresser dans un environnement
+                        collaboratif.
+                    </p>
+                </section>
+
+                <!-- Focus -->
+                <section>
+                    <h2 class="mb-3">Focus</h2>
+                    <ul>
+                        <li>
+                            <p class="fw-bold">Outil de gestion avec Symfony</p>
+                            <p class="text-justify-sm">Implémentation de fonctionnalités clés : CRUD
+                                utilisateurs/projets, gestion des rôles et authentification.</p>
+                        </li>
+                        <li>
+                            <p class="fw-bold">Création d’une API REST</p>
+                            <p class="text-justify-sm">Mise en place de la sérialisation JSON, gestion des routes et
+                                sécurisation des accès à l’API.</p>
+                        </li>
+                        <li>
+                            <p class="fw-bold">Site e-commerce</p>
+                            <p class="text-justify-sm">Développement d’un site marchand complet avec Symfony : catalogue
+                                produits, panier, espace utilisateur.</p>
+                        </li>
+                        <li>
+                            <p class="fw-bold">Tests et intégration continue</p>
+                            <p class="text-justify-sm">Mise en place de tests unitaires et fonctionnels avec PHPUnit et
+                                le framework de test Symfony.</p>
+                            <p class="text-justify-sm">Mise en place d’une pipeline d’intégration continue (CI) pour
+                                automatiser les tests avant déploiement</p>
+                        </li>
+
+                    </ul>
+                </section>
+                <!-- Formation -->
+                <section>
+                    <h2 class="mb-3">Formation</h2>
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="text-nowrap me-4 fw-medium">
+                            <p>2025</p>
+                        </div>
+                        <div>
+                            <p class="fw-medium">Développeur d'application PHP Symfony</p>
+                            <ul>
+                                <li class="text-justify-sm">
+                                    Développement d’applications web avec Symfony : Création d’outils complets,
+                                    intégration de la gestion d’utilisateurs et d’authentification, mise en place de
+                                    fonctionnalités back-end et d’échanges de données affichées via Twig.
+                                </li>
+                                <li class="text-justify-sm">
+                                    Qualité & industrialisation : Implémentation de tests unitaires et fonctionnels pour
+                                    sécuriser les évolutions ; refactorisation de code existant pour améliorer
+                                    performance et maintenabilité ; déploiement d’applications web en production avec
+                                    documentation technique.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="text-nowrap me-4 fw-medium">
+                            <p>2021</p>
+                        </div>
+                        <div>
+                            <p class="fw-medium">Développeur Web</p>
+                            <ul>
+                                <li>
+                                    Conception et intégration web : Transformation de maquettes graphiques en sites web
+                                    fonctionnels, intégration des contenus et mise en forme responsive. Dynamisation des
+                                    pages via animations CSS et effets interactifs.
+                                </li>
+                                <li>
+                                    Développement fonctionnel : Création de sites e-commerce et d’un réseau social
+                                    d’entreprise, intégration de fonctionnalités back-end, gestion des utilisateurs et
+                                    sécurisation des données. Mise en place d’une API sécurisée pour la communication
+                                    entre
+                                    applications.
+                                </li>
+                                <li>
+                                    Qualité et optimisation : Optimisation du référencement SEO pour améliorer la
+                                    visibilité
+                                    des sites web, suivi des bonnes pratiques de développement et documentation des
+                                    projets
+                                    pour faciliter leur maintenance.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Expérience professionnelle -->
+                <section>
+                    <h2 class="mb-3">Expérience professionnelle</h2>
+                    <div class="d-flex flex-column flex-md-row">
+                        <div class="text-nowrap me-4 fw-medium">
+                            <p>2013 - 2025</p>
+                        </div>
+                        <div>
+                            <p class="fw-medium">Amazon</p>
+                            <P class="text-justify-sm">
+                                Respect strict des normes de sécurité et des procédures internes, assurant zéro incident
+                                sur le poste de travail.<br>
+                                Collaboration efficace avec une équipe de plus de 20 personnes pour atteindre et
+                                dépasser les objectifs de productivité mensuels.
+                            </P>
+                        </div>
+                    </div>
+                </section>
+
+
+            </main>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
