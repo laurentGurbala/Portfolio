@@ -13,7 +13,7 @@
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">Mon Portfolio</a>
-                
+
                 <!-- bouton burger (visible seulement en dessous de 768px) -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
                     <span class="navbar-toggler-icon"></span>
@@ -22,15 +22,51 @@
                 <!-- liens du menu -->
                 <div class="collapse navbar-collapse" id="menuPrincipal">
                     <ul class="navbar-nav ms-auto text-end">
-                        <li class="nav-item"><a class="nav-link" href="#a-propos">Qui suis-je ?</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">CV</a></li>
+                        <li class="nav-item"><a class="nav-link me-2    " href="#a-propos">Qui suis-je ?</a></li>
+                        <li class="nav-item"><a class="nav-link me-2" href="#projets">Projets</a></li>
+                        <li class="nav-item"><a class="nav-link me-2" href="#contact">CV</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
+    <main class="text-white d-flex flex-column justify-content-center align-items-center">
+        <section class="mb-5 py-5 w-50 min-vh-100 d-flex flex-column justify-content-center align-items-center">
+            <p class="m-0 text-success fw-bold">Je m'appelle</p>
+            <h1 class="display-1 text-center fw-bold">Laurent Gurbala</h1>
+            <p class="text-strong display-4 text-start mb-5">Développeur back-end</p>
+            <p class="fs-5">
+                En pleine reconversion, je me spécialise dans le développement back-end avec une vraie passion pour la
+                technologie.
+                Mon objectif : concevoir des applications fiables, utiles et pensées pour durer.
+            </p>
+        </section>
+
+        <section id="a-propos"
+            class="mb-5 py-5 w-50 min-vh-100 d-flex flex-column justify-content-center align-items-center">
+            <h2 class="display-4 mb-5">Qui suis-je ?</h2>
+            <p>
+                Après 13 années passées chez Amazon en tant que préparateur de commandes,
+                j’ai choisi de me reconvertir vers un domaine qui me passionne :
+                le développement d’applications web.
+            </p>
+            <p>
+                Diplômé d’OpenClassrooms en <strong>Développement d’application PHP/Symfony (Bac +3/4)</strong>,
+                j’aime concevoir et structurer des applications robustes, fiables et évolutives.
+                Mon univers est résolument tourné vers le <strong>back-end</strong>, où je peux mettre à profit
+                mes compétences en <strong>PHP, Symfony, Doctrine et tests</strong>.
+            </p>
+            <p>
+                Rigoureux et habitué au travail en équipe, je suis aujourd’hui à la recherche
+                de mon <strong>premier poste en développement back-end</strong> pour contribuer à des projets concrets
+                et continuer à progresser.
+            </p>
+            <p>
+                En dehors du code, je suis passionné par la réalité virtuelle et les nouvelles technologies.
+            </p>
+        </section>
+    </main>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
