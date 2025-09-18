@@ -1,12 +1,17 @@
+$primary: #38383b;
+$secondary: #a8a6a1;
+$light: #fff;
+$dark: #000;
+
 $theme-colors: (
-    "primary": #38383b,
-    "secondary": #a8a6a1,
+    "primary": $primary,
+    "secondary": $secondary,
     "success": #198754,
     "info": #0dcaf0,
     "warning": #ffc107,
     "danger": #dc3545,
-    "light": #fff,
-    "dark": #000
+    "light": $light,
+    "dark": $dark
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
