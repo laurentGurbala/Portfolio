@@ -1,17 +1,25 @@
 $primary: #38383b;
 $secondary: #a8a6a1;
+$success: #198754;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #dc3545;
 $light: #fff;
 $dark: #000;
+$badge-debutant: #065A6B;
+$badge-intermediaire: #664D00;
 
 $theme-colors: (
-    "primary": $primary,
-    "secondary": $secondary,
-    "success": #198754,
-    "info": #0dcaf0,
-    "warning": #ffc107,
-    "danger": #dc3545,
-    "light": $light,
-    "dark": $dark
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  "badge-debutant": $badge-debutant,
+  "badge-intermediaire": $badge-intermediaire
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
